@@ -26,7 +26,7 @@ def process_grades(students):
     
     if counter > 0:  
         overall_average = total_grades / counter
-    
+    #No se puede entrar al if counter
     return {
         'passed': passed,
         'failed': failed,
@@ -36,9 +36,9 @@ def process_grades(students):
 
 if __name__ == "__main__":
     students = [
-        #{'name': 'Ana', 'grades': [80, 90, 85]},
-        #{'name': 'Luis', 'grades': [70, 70, 70]},
-        {'name': 'Jorge', 'grades': [51, 51, 51]},
+        {'name': 'Ana', 'grades': [80, 80, 80]},
+        {'name': 'Luis', 'grades': [70, 70, 70]},
+        {'name': 'Jorge', 'grades': [40, 40, 40]},
         {'name': 'Marta', 'grades': None}
     ]
 
